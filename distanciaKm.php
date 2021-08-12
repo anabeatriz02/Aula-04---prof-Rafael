@@ -17,6 +17,8 @@ if (
     $pedagios = $_POST["pedagios"];
     
     $calculo = ($distancia * 6) + ($pedagios * 9.40);
+
+    /* += - é uma atribuição para se referir a atribuir e somar a uma formula ja existente*/
     
     echo "a Viagem de ". $localOrigem . " até " . $localDestino . " irá custar R$" . $calculo;
     
