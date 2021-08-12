@@ -12,7 +12,7 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(rgb(39, 37, 139), white);
+    background-image: linear-gradient(rgb(49, 252, 134), white);
 }
 
 form{
