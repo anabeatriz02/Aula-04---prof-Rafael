@@ -20,6 +20,9 @@ if (
     
     echo "a Viagem de ". $localOrigem . " até " . $localDestino . " irá custar R$" . $calculo;
     
+    }else{
+        echo "Você não enviou os dados!";
+        exit;
     }
     
 ?>
