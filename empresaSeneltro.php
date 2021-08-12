@@ -25,26 +25,39 @@ if ($quilowatts > 120) {
 
 $calculo = $quilowatts * 0.42;
 
-echo "<br></br>";
 echo "<div class 'nome'>Conta de luz de $nome . </div>";
+
 echo "<br></br>";
+
 echo $rua. ", " . $numero . ".";
+
 echo "<br></br>";
+
 echo "Consumo: " . $quilowatts . "kWh.";
+
 echo "<br></br>";
+
 echo "<div class 'calculo'> Valor a pagar: $calculo ";
+
 echo "<br></br>";
 
 }elseif($quilowatts <= 120) {
 
-    echo "<br></br>";
 echo "Conta de luz de " . $nome . ".";
+
 echo "<br></br>";
+
 echo $rua . "," . $numero . ".";
+
 echo "<br></br>";
+
 echo "Consumo: " . $quilowatts . "kWh";
+
 echo "<br></br>";
+
 echo "Obrigado por economizar";
+
 echo "<br></br>";
+
 } 
 ?>
